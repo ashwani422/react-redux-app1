@@ -30,7 +30,7 @@ import { buyCake } from "../redux/actions/cakeActions"
 
 function CakeContainer() {
 
-  const numOfCakes = useSelector(state => state.numOfCakes)
+  const numOfCakes = useSelector(state => state.cake.numOfCakes)
   const dispatch = useDispatch()
 
   return (
