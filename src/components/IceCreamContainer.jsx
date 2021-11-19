@@ -6,7 +6,7 @@ function IceCreamContainer() {
   const dispatch = useDispatch()
 
   return (
-    <div>
+    <div className="text-center">
       <h2>Number of IceCreams - {numOfIceCreams}</h2>
       <button onClick={() => dispatch(buyIceCream())}>Buy an IceCream</button>
     </div>
