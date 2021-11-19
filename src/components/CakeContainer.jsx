@@ -2,7 +2,7 @@
 import { useSelector, useDispatch } from "react-redux"
 import { buyCake } from "../redux/actions/cakeActions"
 
-// ---------------------------------------------------------Old fashion------------------------------------
+// ----------------------------------- Old fashion ------------------------------------
 // function CakeContainer(props) {
 //   return (
 //     <div>
@@ -25,7 +25,7 @@ import { buyCake } from "../redux/actions/cakeActions"
 // }
 
 // export default connect(mapStateToProps, mapDispatchToProps)(CakeContainer)
-// -----------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------
 
 
 function CakeContainer() {
@@ -36,7 +36,7 @@ function CakeContainer() {
   return (
     <div>
       <h2>Number of Cakes - {numOfCakes}</h2>
-      <button onClick={() => dispatch(buyCake())}>Buy Cake</button>
+      <button onClick={() => dispatch(buyCake())}>Buy a Cake</button>
     </div>
   )
 }
